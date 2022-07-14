@@ -1,2 +1,3 @@
-FILE=input('enter the file name:')
-print("the extension of the file name is python")
+FILE_NAME=input("Enter the filename")
+f_extns=FILE_NAME.split(".")
+print("the extension of the file name is:",repr(f_extns[-1]))
