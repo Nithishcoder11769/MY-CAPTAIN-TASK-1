@@ -1,4 +1,3 @@
-p=3.14
+from math import pi
 r=float(input("enter the radius of circle\n"))
-A=p*r*r
-print("THE AREA OF CIRCLE=",A)
+print("THE AREA OF CIRCLE=",+pi*r**2)
